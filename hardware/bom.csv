@@ -1,0 +1,26 @@
+Category,Part,Quantity,Required specification,Notes
+PCB,Keyball39 middle PCB set,1,Original Rev1 ball-right and no-ball-left geometry,Use upstream production files
+PCB,Keyball39 top PCB plate set,1,Original Rev1 geometry,
+Plate,Middle acrylic plate set,1,3 mm upstream DXF,
+Plate,Bottom acrylic plate set,1,2 mm upstream DXF,May need battery or switch clearance
+Controller,nice!nano v2,2,Genuine or fully compatible nRF52840 Pro Micro footprint,Socket both controllers
+Controller socket,Low-profile machine-pin socket strips,4,12 positions each,Do not solder controllers directly
+Controller pins,Mill-Max style pins,48,Compatible with selected sockets,
+Battery,Protected LiPo 301230,2,3.7 V 100-110 mAh,Confirm polarity before connection
+Power switch,SPST slide switch,2,Low-profile and rated for battery current,Wire in series with battery positive
+Display,SSD1306 OLED,2,128x32 I2C 0x3C four-pin module,Verify VCC/GND/SCL/SDA order
+Display socket,4-pin socket and header set,2,2.54 mm pitch,
+Sensor,PMW3610 breakout,1,Fully assembled and function-tested 3.3 V module including PMW3610 and LM18-LSI,Require VIN/GND/SCLK/SDIO/nCS/MOTION plus seller pinout and dimensions
+Trackball,Trackball,1,34 mm diameter,A ball with visible pattern tracks better
+Bearing,Ceramic ball,4,2 mm diameter,Three installed plus one spare
+Switch socket,Kailh MX hot-swap socket,45,MX-compatible,Quantity includes spares and PCB layout options
+Key switch,MX-compatible switch,39,3-pin or 5-pin,
+Keycap,MX-compatible 1u keycap,39,Uniform profile is easiest,
+Diode,1N4148W,50,SOD-123 with marked cathode,Install polarity per PCB silkscreen
+Reset switch,Tactile switch,2,Matches original PCB footprint,
+Sensor connector,Single-row header/socket,1,7 position 2.54 mm or wire harness,Keep sensor removable
+Fastener,M2 spacer 7 mm,14,Original plate stack,One spare
+Fastener,M2 spacer 9 mm,5,Controller protection or battery clearance,One spare
+Fastener,M2 screw 3.5-4 mm,36,Matches spacers,Two spares
+Feet,Adhesive rubber foot,8,Low profile,Four per half
+Wire,Stranded hookup wire,1,28-30 AWG silicone insulated,For battery switches and sensor harness
